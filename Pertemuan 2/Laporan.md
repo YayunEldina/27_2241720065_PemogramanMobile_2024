@@ -3,7 +3,7 @@ NIM     : 2241720065
 
 Nama    : Yayun Eldina
 
-Kelas   : TI-3F
+Kelas   : TI-3F / 27
 
 ##
 # TUGAS PRAKTIKUM
