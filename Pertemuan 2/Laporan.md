@@ -32,10 +32,10 @@ Jawab :
 Rangkumlah materi dari codelab ini menjadi poin-poin penting yang dapat Anda gunakan untuk membantu proses pengembangan aplikasi mobile menggunakan framework Flutter.
 Jawab :
 #### 1. Pengantar Dart
-* Kombinasi Fitur Bahasa Modern: Dart menggabungkan kelebihan bahasa pemrograman tingkat tinggi dan fitur-fitur terkini, seperti garbage collection dan optional type annotations.
-* Alat Produktif: Memiliki kakas untuk analisis kode, plugin IDE, dan ekosistem paket yang besar.
-* Portabilitas: Dapat digunakan untuk pengembangan web (dikonversi ke JavaScript) dan aplikasi mobile (dikompilasi ke kode native ARM dan x86).
-* Kompilasi Statis: Meski type annotations opsional, Dart tetap menggunakan type-safe dan type inference untuk mendeteksi bug pada kompilasi kode.
+* Kombinasi Fitur Bahasa Modern: Dart menggabungkan fitur-fitur bahasa pemrograman tingkat tinggi seperti garbage collection dan type annotations opsional, yang meningkatkan keamanan dan konsistensi data.
+* Productive Tooling: Dart menyediakan alat untuk analisis kode, plugin IDE, dan ekosistem paket yang luas, meningkatkan produktivitas pengembangan aplikasi.
+* Portabilitas: Dart dapat digunakan untuk pengembangan web (dikonversi ke JavaScript) dan aplikasi mobile (dikompilasi ke kode native ARM dan x86), membuatnya fleksibel untuk berbagai platform.
+* Kompilasi Statis: Meskipun type annotations bersifat opsional, Dart tetap menggunakan type-safe dan type inference untuk mendeteksi bug pada saat kompilasi.
 #### 2. Evolusi Dart
 * Sejak diluncurkan pada 2011, Dart telah berkembang dengan penekanan awal pada pengembangan web dan kini berfokus pada mobile development, khususnya dengan Flutter. Dart 2.0 memperkenalkan perubahan besar untuk meningkatkan performa dan fleksibilitas.
 #### 3. Cara Kerja Dart
