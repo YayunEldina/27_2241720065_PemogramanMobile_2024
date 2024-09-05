@@ -1,12 +1,12 @@
-#  LAPORAN JOBSHEET 2 - Pengantar Bahasa Pemrograman Dart - Bagian 1
+# LAPORAN JOBSHEET 2 
 NIM     : 2241720065
 
 Nama    : Yayun Eldina
 
 Kelas   : TI-3F / 27
 
-##
-# TUGAS PRAKTIKUM
+# PENGANTAR BAHASA PEMOGRAMAN DART - BAGIAN 1
+# Tugas Praktikum
 ## Soal 1
 Modifikasilah kode pada baris 3 di VS Code atau Editor Code favorit Anda berikut ini agar mendapatkan keluaran (output) sesuai yang diminta!
 * INPUT
@@ -49,6 +49,6 @@ Jawab :
 #### 5. Praktik dengan Dart
 * DartPad: Alat online yang digunakan untuk belajar dan bereksperimen dengan Dart. Mendukung core library kecuali library VM seperti dart:io.
 * Hello World di Dart: Pengantar dasar menulis dan mengeksekusi kode Dart menggunakan function main.
-#### 6.Fungsi dan Method di Dart
+#### 6. Fungsi dan Method di Dart
 * Fungsi main: Titik awal eksekusi kode di Dart, yang selalu dicari oleh Dart VM.
 * Fungsi vs. Method: Fungsi berada di luar class, sedangkan metode terikat pada instance class dan memiliki referensi ke this.
