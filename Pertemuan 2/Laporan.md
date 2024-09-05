@@ -5,7 +5,7 @@ Nama    : Yayun Eldina
 
 Kelas   : TI-3F / 27
 
-# PENGANTAR BAHASA PEMOGRAMAN DART - BAGIAN 1
+# Pengantar Bahasa Pemrograman Dart - Bagian 1
 # Tugas Praktikum
 ## Soal 1
 Modifikasilah kode pada baris 3 di VS Code atau Editor Code favorit Anda berikut ini agar mendapatkan keluaran (output) sesuai yang diminta!
