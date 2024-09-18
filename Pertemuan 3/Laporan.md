@@ -26,6 +26,7 @@ Kelas   : TI-3F / 27
 
 ## Langkah 2
 * Output
+
     <img src="img/output_l2.png">
 
 * Soal
@@ -47,6 +48,7 @@ Output yang ditampilkan adalah "test2" dan "test2 again" karena kondisi kedua te
     ```
 
 * Output
+
     <img src="img/output_le3.png">
 
 * Penjelasan
@@ -64,6 +66,7 @@ Pada data dalam dart diatas, pernyataan if membutuhkan kondisi berupa nilai bool
     ```
 
 * Output
+
     <img src="img/output_l3.png">
 
 * Penjelasan
@@ -82,7 +85,8 @@ Pada kode Dart diats memeriksa apakah `test` bernilai "true" (String). Jika bena
     ```
         
 * Output
-<img src="img/output_pe1.png">
+
+    <img src="img/output_pe1.png">
 
 * Penjelasan
 Kode error terjadi karena variabel `counter` belum dideklarasikan atau diinisialisasi. Untuk memperbaikinya, inisialisasi `counter` terlebih dahulu agar kode dapat menampilkan angka sampai 32.
@@ -100,6 +104,7 @@ Kode error terjadi karena variabel `counter` belum dideklarasikan atau diinisial
     ```
 
 * Output
+
     <img src="img/output_pb2.png">
 
 * Penjelasan
@@ -118,6 +123,7 @@ Setelah diperbaiki dengan menginisialisasi counter, kode akan menampilkan angka 
     ```
 
 * Output
+
     <img src="img/output_pe3.png">
 
 * Penjelasan
@@ -136,6 +142,7 @@ Error terjadi karena variabel counter yang digunakan dalam loop do-while belum d
     ```
 
 * Output
+
     <img src="img/output_pb3.png">
 
 * Penjelasan
@@ -154,6 +161,7 @@ Setelah diperbaiki dengan mendeklarasikan dan menginisialisasi counter sebagai i
     ```
 
 * Output
+
     <img src="img/output_te1.png">
 
 * Penjelasan
@@ -171,6 +179,7 @@ Error terjadi karena variabel index belum dideklarasikan dan tidak ada operator 
             }
         ```
 * Output
+
      <img src="img/output_tb2.png">
 
 * Penjelasan
@@ -189,6 +198,7 @@ Setelah diperbaiki dengan mendeklarasikan index di dalam perulangan for dan mena
     ```
 
 * Output
+
     <img src="img/output_te3.png">
 
 * Penjelasan
@@ -210,7 +220,8 @@ Kode error terjadi karena penggunaan if-else dengan huruf kapital dan penempatan
     ```
 
 * Output
-        <img src="img/output_tb3.png">
+
+    <img src="img/output_tb3.png">
 
 * Penjelasan
 Setelah diperbaiki kode diatas akan menampilkan angka dari 0 hingga 20, kecuali angka 2 hingga 6. Ini karena continue melewati angka 2 hingga 6, dan break menghentikan loop ketika index mencapai 21.
@@ -247,4 +258,9 @@ Buatlah sebuah program yang dapat menampilkan bilangan prima dari angka 0 sampai
     ```
 
 * Output
+
+    <img src="img/output_tugas1.png">
+
+    <img src="img/output_tugas2.png">
+
 
