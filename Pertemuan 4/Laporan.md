@@ -139,39 +139,36 @@ Kode program berhasil dijalankan karena semua kondisi map, `gifts` dan `nobleGas
 
     ```
         void main() {
-            // Adding new elements to gifts and nobleGases
-            var gifts = {
-                'first': 'partridge',
-                'second': 'turtledoves',
-                'fifth': 1,
-                'Yayun Eldina': '2241720065'
-            };
+            // Mendeklarasikan dan mengisi Map gifts
+            var gifts = Map<String, String>();
+            gifts['first'] = 'partridge';
+            gifts['second'] = 'turtledoves';
+            gifts['fifth'] = 'golden rings';
+            gifts['name'] = 'Yayun Eldina'; // Nama
+            gifts['NIM'] = '2241720065'; // NIM
 
-            var nobleGases = {
-                2: 'helium',
-                10: 'neon',
-                18: 2,
-                2241720065: 'Yayun Eldina'
-            };
+            // Mendeklarasikan dan mengisi Map nobleGases
+            var nobleGases = Map<int, String>();
+            nobleGases[2] = 'helium';
+            nobleGases[10] = 'neon';
+            nobleGases[18] = 'argon';
+            nobleGases[3] = 'Yayun Eldina'; // Nama
+            nobleGases[1] = '2241720065'; // NIM
 
-            print(gifts);
-            print(nobleGases);
-
-            // Adding new elements to mhs1 and mhs2
+            // Mendeklarasikan Map mhs1 dan mhs2
             var mhs1 = Map<String, String>();
-            mhs1['first'] = 'partridge';
-            mhs1['second'] = 'turtledoves';
-            mhs1['fifth'] = 'golden rings';
-            mhs1['Yayun Eldina'] = '2241720065';
+            mhs1['name'] = 'Yayun Eldina'; // Nama
+            mhs1['NIM'] = '2241720065'; // NIM
 
-            var mhs2 = Map<int, String>();
-            mhs2[2] = 'helium';
-            mhs2[10] = 'neon';
-            mhs2[18] = 'argon';
-            mhs2[2241720065] = 'Yayun Eldina';
+            var mhs2 = Map<String, String>();
+            mhs2['name'] = 'Yayun Eldina'; // Nama
+            mhs2['NIM'] = '2241720065'; // NIM
 
-            print(mhs1);
-            print(mhs2);
+            // Mencetak hasil
+            print('gifts: $gifts');
+            print('nobleGases: $nobleGases');
+            print('mhs1: $mhs1');
+            print('mhs2: $mhs2');
         }
 
     ```
@@ -489,10 +486,3 @@ Hasil program tersebut mendefinisikan mahasiswa sebagai tuple (String, int) yang
 * Penjelasan
 Kode program berhasil dijalankan karena telah mendefinisikan `mahasiswa2` sebagai tuple dengan nilai `'Yayun Eldina'`, NIM sebagai named parameter `a`, `true` sebagai `b`, dan `'last'`, lalu mencetak nilainya.
 
-# TUGAS PRAKTIKUM
-2. Jelaskan yang dimaksud Functions dalam bahasa Dart!
-3. Jelaskan jenis-jenis parameter di Functions beserta contoh sintaksnya!
-4. Jelaskan maksud Functions sebagai first-class objects beserta contoh sintaknya!
-5. Apa itu Anonymous Functions? Jelaskan dan berikan contohnya!
-6. Jelaskan perbedaan Lexical scope dan Lexical closures! Berikan contohnya! 
-7. Jelaskan dengan contoh cara membuat return multiple value di Functions!
