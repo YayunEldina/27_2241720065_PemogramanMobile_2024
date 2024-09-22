@@ -7,6 +7,8 @@ Kelas   : TI-3F / 27
 
 # Praktikum 1: Eksperimen Tipe Data List
 ## Langkah 1
+Ketik atau salin kode program berikut ke dalam void main().
+
 * Input
 
     ```
@@ -24,6 +26,8 @@ Kelas   : TI-3F / 27
     ```
 
 ## Langkah 2
+Silakan coba eksekusi (Run) kode pada langkah 1 tersebut. Apa yang terjadi? Jelaskan!
+
 * Output
 
     <img src="img/output_l2.png">
@@ -32,6 +36,8 @@ Kelas   : TI-3F / 27
 Kode program berhasil dijalankan karena semua kondisi `assert` terpenuhi. Panjang list adalah 3, elemen kedua awalnya 2, lalu diubah menjadi 1. Dengan hasil, panjang list (3), elemen kedua sebelum (2), dan setelah perubahan (1).
 
 ## Langkah 3
+Ubah kode pada langkah 1 menjadi variabel final yang mempunyai index = 5 dengan default value = null. Isilah nama dan NIM Anda pada elemen index ke-1 dan ke-2. Lalu print dan capture hasilnya. Apa yang terjadi ? Jika terjadi error, silakan perbaiki.
+
 * Input
 
     ```
@@ -60,6 +66,8 @@ Kode ini berhasil dijalankan karena semua kondisi dalam assert terpenuhi. Output
 
 # Praktikum 2: Eksperimen Tipe Data Set
 ## Langkah 1
+Ketik atau salin kode program berikut ke dalam fungsi main().
+
 * Input
 
     ```
@@ -70,6 +78,8 @@ Kode ini berhasil dijalankan karena semua kondisi dalam assert terpenuhi. Output
     ```
 
 ## Langkah 2
+Silakan coba eksekusi (Run) kode pada langkah 1 tersebut. Apa yang terjadi? Jelaskan! Lalu perbaiki jika terjadi error.
+
 * Output
 
     <img src="img/output_p1.png">
@@ -78,6 +88,9 @@ Kode ini berhasil dijalankan karena semua kondisi dalam assert terpenuhi. Output
 Kode program berhasil dijalankan karena semua kondisi terpenuhi: set `halogens` dideklarasikan dengan benar dan mencetak isi set ke konsol.
 
 ## Langkah 3
+Tambahkan kode program berikut, lalu coba eksekusi (Run) kode Anda.
+Apa yang terjadi ? Jika terjadi error, silakan perbaiki namun tetap menggunakan ketiga variabel tersebut. Tambahkan elemen nama dan NIM Anda pada kedua variabel Set tersebut dengan dua fungsi berbeda yaitu .add() dan .addAll(). Untuk variabel Map dihapus, nanti kita coba di praktikum selanjutnya.
+
 * Input
 
     ```
@@ -104,6 +117,8 @@ Kode tersebut berhasil dijalankan karena semua program `.add()` dan `.addAll()` 
 
 # Praktikum 3: Eksperimen Tipe Data Maps
 ## Langkah 1
+Ketik atau salin kode program berikut ke dalam fungsi main().
+
 * Input
 
     ```
@@ -127,6 +142,8 @@ Kode tersebut berhasil dijalankan karena semua program `.add()` dan `.addAll()` 
     ```
 
 ## Langkah 2
+Silakan coba eksekusi (Run) kode pada langkah 1 tersebut. Apa yang terjadi? Jelaskan! Lalu perbaiki jika terjadi error.
+
 * Output
 
     <img src="img/output_t1.png">
@@ -135,6 +152,9 @@ Kode tersebut berhasil dijalankan karena semua program `.add()` dan `.addAll()` 
 Kode program berhasil dijalankan karena semua kondisi map, `gifts` dan `nobleGases`, memiliki pasangan key-value yang valid, dengan kombinasi tipe data string dan integer yang sesuai.
 
 ## Langkah 3
+Tambahkan kode program berikut, lalu coba eksekusi (Run) kode Anda.
+Apa yang terjadi ? Jika terjadi error, silakan perbaiki. Tambahkan elemen nama dan NIM Anda pada tiap variabel di atas (gifts, nobleGases, mhs1, dan mhs2). Dokumentasikan hasilnya dan buat laporannya!
+
 * Input
 
     ```
@@ -181,6 +201,8 @@ Kode program berhasil dijalankan karena semua kondisi terpenuhi. Dua map, `gifts
 
 # Praktikum 4: Eksperimen Tipe Data List: Spread dan Control-flow Operators
 ## Langkah 1
+Ketik atau salin kode program berikut ke dalam fungsi main().
+
 * Input 
 
     ```
@@ -194,6 +216,8 @@ Kode program berhasil dijalankan karena semua kondisi terpenuhi. Dua map, `gifts
     ```
 
 ## Langkah 2
+Silakan coba eksekusi (Run) kode pada langkah 1 tersebut. Apa yang terjadi? Jelaskan! Lalu perbaiki jika terjadi error.
+
 * Output Eror
 
     <img src="img/output_e1.png">
@@ -222,6 +246,9 @@ Kode program berhasil dijalankan karena semua kondisi terpenuhi. Dua map, `gifts
 Setelah perbaikan, variabel list1 diganti dengan list, yang memang sudah dideklarasikan sebelumnya. Hal ini membuat program berjalan dengan benar.
 
 ## Langkah 3
+Tambahkan kode program berikut, lalu coba eksekusi (Run) kode Anda.
+Apa yang terjadi ? Jika terjadi error, silakan perbaiki. Tambahkan variabel list berisi NIM Anda menggunakan Spread Operators. Dokumentasikan hasilnya dan buat laporannya!
+
 ### Hasil Eror
 * Input
 
@@ -263,6 +290,9 @@ Telah terjadi error pada kode ini karena `list1` belum dideklarasikan dengan ben
      <img src="img/output_eb3.png">
 
 ## Langkah 4
+Tambahkan kode program berikut, lalu coba eksekusi (Run) kode Anda.
+Apa yang terjadi ? Jika terjadi error, silakan perbaiki. Tunjukkan hasilnya jika variabel promoActive ketika true dan false.
+
 ### Hasil eror
 * Input
 
@@ -317,6 +347,9 @@ Error yang terjadi karena pada kode dart variabel promoActive tidak didefinisika
 Setelah perbaikan dengan mendefinisikan promoActive dengan nilai boolean (true atau false) sebelum membuat list nav kode program dalam dart dapat dijalankan sesuai dengan hasilnya.
 
 ## Langkah 5
+Tambahkan kode program berikut, lalu coba eksekusi (Run) kode Anda.
+Apa yang terjadi ? Jika terjadi error, silakan perbaiki. Tunjukkan hasilnya jika variabel login mempunyai kondisi lain.
+
 ### Hasil Eror
 * Input
 
@@ -358,6 +391,9 @@ Error terjadi karena variabel login tidak dideklarasikan sebelum digunakan, dan 
  Perbaikan telah likakukan dengan variabel login telah didefinisikan sebelum digunakan. Dengan menggunakan pernyataan if, kode memeriksa apakah login sama dengan 'Manager' dan menambahkan 'Inventory' ke dalam list nav2 jika kondisi tersebut terpenuhi. 
 
  ## Langkah 6
+ Tambahkan kode program berikut, lalu coba eksekusi (Run) kode Anda.
+ Apa yang terjadi ? Jika terjadi error, silakan perbaiki. Jelaskan manfaat Collection For dan dokumentasikan hasilnya.
+
   ### Hasil Perbaikan
  * Input
 
@@ -379,6 +415,8 @@ Error terjadi karena variabel login tidak dideklarasikan sebelum digunakan, dan 
 
 # Praktikum 5: Eksperimen Tipe Data Records
 ## Langkah 1
+Ketik atau salin kode program berikut ke dalam fungsi main().
+
 ### Hasil Eror
 * Input
 
@@ -389,6 +427,8 @@ Error terjadi karena variabel login tidak dideklarasikan sebelum digunakan, dan 
         }
     ```
 ## Langkah 2
+Silakan coba eksekusi (Run) kode pada langkah 1 tersebut. Apa yang terjadi? Jelaskan! Lalu perbaiki jika terjadi error.
+
 * Output
 
      <img src="img/output_ll1.png">
@@ -414,6 +454,9 @@ Error terjadi karena ada kesalahan sintaksis pada kode Anda. Pesan kesalahan men
 Setelah diperbaiki dengan menambahkan titik koma (;) setelah pernyataan print (record) kode program berhasil dijalankan.
 
 ## Langkah 3
+Tambahkan kode program berikut di luar scope void main(), lalu coba eksekusi (Run) kode Anda.
+Apa yang terjadi ? Jika terjadi error, silakan perbaiki. Gunakan fungsi tukar() di dalam main() sehingga tampak jelas proses pertukaran value field di dalam Records.
+
 * Input
 
     ```
@@ -445,6 +488,9 @@ Setelah diperbaiki dengan menambahkan titik koma (;) setelah pernyataan print (r
 Dari hasil program diatas fungsi tukar() menukar nilai dalam tuple (int, int) dan mengembalikannya. Di dalam main(), kita mendefinisikan recordAwal, menampilkan nilainya, memanggil tukar(), dan menampilkan hasil pertukarannya.
 
 ## Langkah 4
+Tambahkan kode program berikut di dalam scope void main(), lalu coba eksekusi (Run) kode Anda.
+Apa yang terjadi ? Jika terjadi error, silakan perbaiki. Inisialisasi field nama dan NIM Anda pada variabel record mahasiswa di atas. Dokumentasikan hasilnya dan buat laporannya!
+
 * Input
 
     ```
@@ -463,6 +509,9 @@ Hasil program tersebut mendefinisikan mahasiswa sebagai tuple (String, int) yang
 
 
 ## Langkah 5
+Tambahkan kode program berikut di dalam scope void main(), lalu coba eksekusi (Run) kode Anda.
+Apa yang terjadi ? Jika terjadi error, silakan perbaiki. Gantilah salah satu isi record dengan nama dan NIM Anda, lalu dokumentasikan hasilnya dan buat laporannya!
+
 * Input
 
     ```

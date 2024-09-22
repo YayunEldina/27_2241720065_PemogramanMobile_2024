@@ -184,5 +184,41 @@ Dalam bahasa Dart, functions dianggap sebagai first-class objects. Ini berarti b
 
 
 5. Apa itu Anonymous Functions? Jelaskan dan berikan contohnya!
+* Jawab: Anonymous functions (atau lambda functions) adalah fungsi yang tidak memiliki nama. Fungsi ini sering digunakan ketika kamu memerlukan fungsi kecil dan sederhana untuk digunakan langsung dalam konteks tertentu tanpa perlu mendeklarasikan fungsi dengan nama.
+
+* fungsi anonim dalam ekspresi
+
+     <img src="../Tugas/img/fae.png">
+
+* fungsi anonim sebagai parameter
+
+    <img src="../Tugas/img/fap.png">
+
+* fungsi anonim dalam callback
+
+    <img src="../Tugas/img/fac.png">
+
+
 6. Jelaskan perbedaan Lexical scope dan Lexical closures! Berikan contohnya! 
+* Jawab: 
+* Lexical scope mengacu pada aturan akses variabel berdasarkan di mana variabel itu dideklarasikan dalam kode.
+
+    <img src="../Tugas/img/ls.png">
+
+* Lexical closure mengacu pada kemampuan fungsi untuk mengingat variabel dari lingkup di mana fungsi itu didefinisikan, bahkan jika fungsi itu dieksekusi di luar lingkup aslinya.
+
+    <img src="../Tugas/img/lc.png">
+
 7. Jelaskan dengan contoh cara membuat return multiple value di Functions!
+* Jawab:
+* Menggunakan List untuk Return Multiple Values
+
+    <img src="../Tugas/img/lrMV.png">
+
+* Menggunakan Map untuk Return Multiple Values
+
+    <img src="../Tugas/img/MrMV.png">
+
+* Menggunakan Class untuk Return Multiple Values
+
+    <img src="../Tugas/img/crMV.png">
