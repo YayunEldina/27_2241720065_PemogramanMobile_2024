@@ -135,16 +135,28 @@ Silakan screenshot seperti pada Langkah 11, namun teks yang ditampilkan dalam ap
 ## **Langkah 1 : Text Widget**
 * Buat folder baru basic_widgets di dalam folder lib. Kemudian buat file baru di dalam basic_widgets dengan nama text_widget.dart. Ketik atau salin kode program berikut ke project hello_world Anda pada file text_widget.dart.
 
+<img src="img/e1.png">
+
 * Lakukan import file text_widget.dart ke main.dart, lalu ganti bagian text widget dengan kode di atas. Maka hasilnya seperti gambar berikut. Screenshot hasil milik Anda, lalu dibuat laporan pada file README.md.
 
+<img src="img/e1,.png">
+
+<img src="img/e1...jpg">
 
 ## **Langkah 2 : Image Widget**
 * Buat sebuah file image_widget.dart di dalam folder basic_widgets dengan isi kode berikut.
 
+<img src="img/e2.png">
 
 * Lakukan penyesuaian asset pada file pubspec.yaml dan tambahkan file logo Anda di folder assets project hello_world.
 
+<img src="img/e2,.png">
+
 * Jangan lupa sesuaikan kode dan import di file main.dart kemudian akan tampil gambar seperti berikut.
+
+<img src="img/e2..png">
+
+<img src="img/e2hasil.jpg">
 
 # **Praktikum 5 : Menerapkan Widget Material Design dan iOS Cupertino**
 ## **Langkah 1 : Cupertino Button dan Loading Bar**
