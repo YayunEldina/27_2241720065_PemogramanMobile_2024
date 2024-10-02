@@ -162,17 +162,29 @@ Silakan screenshot seperti pada Langkah 11, namun teks yang ditampilkan dalam ap
 ## **Langkah 1 : Cupertino Button dan Loading Bar**
 Buat file di basic_widgets > loading_cupertino.dart. Import stateless widget dari material dan cupertino. Lalu isi kode di dalam method Widget build adalah sebagai berikut.
 
+<img src="img/l1.png">
+
+<img src="img/l1..jpg">
 
 ## **Langkah 2 : Floating Action Button (FAB)**
 Button widget terdapat beberapa macam pada flutter yaitu ButtonBar, DropdownButton, TextButton, FloatingActionButton, IconButton, OutlineButton, PopupMenuButton, dan ElevatedButton.
 
 Buat file di basic_widgets > fab_widget.dart. Import stateless widget dari material. Lalu isi kode di dalam method Widget build adalah sebagai berikut.
 
+<img src="img/l2.png">
+
+<img src="img/l2..jpg">
 
 ## **Langkah 3 : Scaffold Widget**
 Scaffold widget digunakan untuk mengatur tata letak sesuai dengan material design.
 
 Ubah isi kode main.dart seperti berikut.
+
+<img src="img/l3.png">
+
+<img src="img/l3,.png">
+
+<img src="img/l3..jpg">
 
 
 ## **Langkah 4 : Dialog Widget**
@@ -180,13 +192,28 @@ Dialog widget pada flutter memiliki dua jenis dialog yaitu AlertDialog dan Simpl
 
 Ubah isi kode main.dart seperti berikut.
 
+<img src="img/l4.png">
+
+<img src="img/l4,.png">
+
+<img src="img/l4..jpg">
 
 ## **Langkah 5 : Input dan Selection Widget**
 Flutter menyediakan widget yang dapat menerima input dari pengguna aplikasi yaitu antara lain Checkbox, Date and Time Pickers, Radio Button, Slider, Switch, TextField.
 
 Contoh penggunaan TextField widget adalah sebagai berikut:
 
+<img src="img/l5.png">
+
+<img src="img/l5..jpg">
 
 ## **Langkah 6 : Date and Time Pickers**
 Date and Time Pickers termasuk pada kategori input dan selection widget, berikut adalah contoh penggunaan Date and Time Pickers.
 
+<img src="img/l6.png">
+
+<img src="img/l6,.png">
+
+<img src="img/l6.jpg">
+
+<img src="img/l6..jpg">
