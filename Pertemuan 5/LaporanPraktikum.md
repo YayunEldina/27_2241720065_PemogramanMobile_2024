@@ -3,6 +3,7 @@
 ## Nama     : Yayun Eldina
 ## NIM      : 2241720065
 ## Kelas    : Teknik Informatika - 3F
+## Link GitHub : <https://github.com/YayunEldina/flutter-fundamental-part1>
 
 # **Praktikum 1 : Membuat Project Flutter Baru**
 ## **Langkah 1**
