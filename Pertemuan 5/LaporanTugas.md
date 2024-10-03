@@ -59,14 +59,9 @@
 
 ## **Langkah 9: Tingkat Responsif**
 
-Berikutnya, kolom samping navigasi yang tidak responsif ketika ditampilkan pada layar Handphone karena tidak cukup ruang
  <img src="img/A10.png">
 
- <img src="img/A10.jpg">
-
- Jika memang ingin ditampilkan pada layar Handphone bisa mengkreasikan dengan tema seperti ini
-
-  <img src="img/A10,.jpg">
+ <img src="img/AA.png">
 
   ## **Langkah 10: Menambahkan View halaman favorit**
 
