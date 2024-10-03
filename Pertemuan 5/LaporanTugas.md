@@ -3,6 +3,7 @@
 ## Nama     : Yayun Eldina
 ## NIM      : 2241720065
 ## Kelas    : Teknik Informatika - 3F
+### Link GitHub : <https://github.com/YayunEldina/flutter_application_1>
 
 # **Tugas Flutter First App**
 ## **Langkah 1: Setup pubspec.yaml**
@@ -19,7 +20,7 @@
 
 ## **Langkah 4: Run project flutter**
 
- <img src="img/A4.png">
+ <img src="img/A3.png">
 
  <img src="img/A4.jpg">
 
@@ -42,6 +43,37 @@
 
 ## **Langkah 7: Menambahkan Like Button**
 
+ <img src="img/A7.png">
+
+  <img src="img/A7.jpg">
+
+<img src="img/A8.png">
+
+  <img src="img/A8.jpg">
+
 ## **Langkah 8: Menambahkan navigasi dan halaman baru**
 
-## **Langkah 9: Menambahkan View halaman favorit**
+ <img src="img/A9.png">
+
+<img src="img/A9.jpg">
+
+## **Langkah 9: Tingkat Responsif**
+
+Berikutnya, kolom samping navigasi yang tidak responsif ketika ditampilkan pada layar Handphone karena tidak cukup ruang
+ <img src="img/A10.png">
+
+ <img src="img/A10.jpg">
+
+ Jika memang ingin ditampilkan pada layar Handphone bisa mengkreasikan dengan tema seperti ini
+
+  <img src="img/A10,.jpg">
+
+  ## **Langkah 10: Menambahkan View halaman favorit**
+
+<img src="img/A11.png">
+
+<img src="img/A11.jpg">
+
+<img src="img/A11,.jpg">
+
+<img src="img/A11..jpg">
