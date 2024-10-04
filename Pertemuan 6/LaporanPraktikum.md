@@ -149,7 +149,5 @@ Untuk menambahkan aksi pada ListView dapat digunakan widget InkWell atau Gesture
 
 Sekarang jika item pada ListView ditekan, maka akan berpindah ke halaman ItemPage.
 
-<video width="800" height="400" autoplay muted loop>
-    <source src="img/p5.l7.mp4" type="video/mp4">
-</video>
+<img src="img/p5.l7.gif">
 
