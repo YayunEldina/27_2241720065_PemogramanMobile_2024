@@ -1,0 +1,1 @@
+ C:\\Semester\ 5\ (Yayun\ Eldina)\\PEMR_MOB\\PemogramanMobile_Ganjil_2024\\Pertemuan\ 6\\layout_flutter\\.dart_tool\\flutter_build\\adcebb934ba1c54ec88ad260f0d8dcd5\\native_assets.yaml: 

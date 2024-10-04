@@ -53,6 +53,7 @@ Bagian tombol berisi 3 kolom yang menggunakan tata letak yang sama—sebuah ikon
 
 Karena kode untuk membangun setiap kolom hampir sama, buatlah metode pembantu pribadi bernama buildButtonColumn(), yang mempunyai parameter warna, Icon dan Text, sehingga dapat mengembalikan kolom dengan widgetnya sesuai dengan warna tertentu.
 lib/main.dart (_buildButtonColumn)
+ <img src="img/d1.png">
 
 ## **Langkah 2: Buat widget buttonSection**
 Buat Fungsi untuk menambahkan ikon langsung ke kolom. Teks berada di dalam Container dengan margin hanya di bagian atas, yang memisahkan teks dari ikon.
@@ -60,10 +61,15 @@ Buat Fungsi untuk menambahkan ikon langsung ke kolom. Teks berada di dalam Conta
 Bangun baris yang berisi kolom-kolom ini dengan memanggil fungsi dan set warna, Icon, dan teks khusus melalui parameter ke kolom tersebut. Sejajarkan kolom di sepanjang sumbu utama menggunakan MainAxisAlignment.spaceEvenly untuk mengatur ruang kosong secara merata sebelum, di antara, dan setelah setiap kolom. Tambahkan kode berikut tepat di bawah deklarasi titleSection di dalam metode build():
 
 lib/main.dart (buttonSection)
-
+ <img src="img/d2.png">
 
 ## **Langkah 3: Tambah button section ke body**
 Tambahkan variabel buttonSection ke dalam body seperti berikut:
+
+ <img src="img/d3.png">
+
+ Hasilnya di Handphone
+  <img src="img/d1.jpg">
 
 
 # **Praktikum 3: Implementasi text section**
@@ -71,18 +77,32 @@ Tambahkan variabel buttonSection ke dalam body seperti berikut:
 Tentukan bagian teks sebagai variabel. Masukkan teks ke dalam Container dan tambahkan padding di sepanjang setiap tepinya. Tambahkan kode berikut tepat di bawah deklarasi buttonSection:
 Dengan memberi nilai softWrap = true, baris teks akan memenuhi lebar kolom sebelum membungkusnya pada batas kata.
 
+ <img src="img/t1.png">
+
 ## **Langkah 2: Tambahkan variabel text section ke body**
 Tambahkan widget variabel textSection ke dalam body seperti berikut:
+
+ <img src="img/t2.png">
+
+ Hasilnya:
+
+  <img src="img/thasil.png">
 
 # **Praktikum 4: Implementasi image section**
 ## **Langkah 1: Siapkan aset gambar**
 Anda dapat mencari gambar di internet yang ingin ditampilkan. Buatlah folder images di root project layout_flutter. Masukkan file gambar tersebut ke folder images, lalu set nama file tersebut ke file pubspec.yaml seperti berikut:
 ontoh nama file gambar di atas adalah lake.jpg
 
+ <img src="img/e1.png">
+
 ## **Langkah 2: Tambahkan gambar ke body**
 Tambahkan aset gambar ke dalam body seperti berikut:
 BoxFit.cover memberi tahu kerangka kerja bahwa gambar harus sekecil mungkin tetapi menutupi seluruh kotak rendernya.
 
+ <img src="img/e2.png">
+
 ## **Langkah 3: Terakhir, ubah menjadi ListView**
 Pada langkah terakhir ini, atur semua elemen dalam ListView, bukan Column, karena ListView mendukung scroll yang dinamis saat aplikasi dijalankan pada perangkat yang resolusinya lebih kecil.
+
+ <img src="img/e3.png">
 

@@ -7,55 +7,111 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    // Widget titleSection dideklarasikan di dalam build method
+    // Langkah 1: Buat widget titleSection
     Widget titleSection = Container(
-      padding: const EdgeInsets.all(32), // Padding sepanjang setiap tepi 32 piksel
+      padding: const EdgeInsets.all(32),
       child: Row(
         children: [
           Expanded(
-            /* soal 1 */
             child: Column(
-              crossAxisAlignment: CrossAxisAlignment.start, // Posisi kolom di awal baris
+              crossAxisAlignment: CrossAxisAlignment.start,
               children: [
-                /* soal 2 */
                 Container(
-                  padding: const EdgeInsets.only(bottom: 8), // Padding bottom sebesar 8
+                  padding: const EdgeInsets.only(bottom: 8),
                   child: const Text(
-                    'Wisata Gunung di Batu',
+                    'Gunung Panderman',
                     style: TextStyle(
-                      fontWeight: FontWeight.bold, // Teks dengan font tebal
+                      fontWeight: FontWeight.bold,
                     ),
                   ),
                 ),
                 const Text(
                   'Batu, Malang, Indonesia',
                   style: TextStyle(
-                    color: Colors.grey, // Set warna menjadi abu-abu
+                    color: Colors.grey,
                   ),
                 ),
               ],
             ),
           ),
-          /* soal 3 */
           const Icon(
             Icons.star,
-            color: Colors.red, // Set warna ikon bintang menjadi merah
+            color: Colors.red,
           ),
-          const SizedBox(width: 8), // Menambah jarak antara ikon dan teks
-          const Text('41'), // Teks "41"
+          const SizedBox(width: 8),
+          const Text('41'),
         ],
       ),
     );
 
+    // Langkah 2: Buat method _buildButtonColumn
+    Column _buildButtonColumn(Color color, IconData icon, String label) {
+      return Column(
+        mainAxisSize: MainAxisSize.min,
+        mainAxisAlignment: MainAxisAlignment.center,
+        children: [
+          Icon(icon, color: color),
+          Container(
+            margin: const EdgeInsets.only(top: 8),
+            child: Text(
+              label,
+              style: TextStyle(
+                fontSize: 12,
+                fontWeight: FontWeight.w400,
+                color: color,
+              ),
+            ),
+          ),
+        ],
+      );
+    }
+
+
+    // Langkah 2: Buat widget buttonSection
+    Color color = Theme.of(context).primaryColor;
+    Widget buttonSection = Row(
+      mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+      children: [
+        _buildButtonColumn(color, Icons.call, 'CALL'),
+        _buildButtonColumn(color, Icons.near_me, 'ROUTE'),
+        _buildButtonColumn(color, Icons.share, 'SHARE'),
+      ],
+    );
+
+    //  Praktikum 3
+    // Langkah 1: Buat widget textSection
+    Widget textSection = Container(
+      padding: const EdgeInsets.all(32),
+      child: const Text(
+        'Gunung Panderman merupakan gunung yang berlokasi di Kota Batu, Jawa Timur '
+        'dengan ketinggian 2.045 meter di atas permukaan laut.'
+        'Berwisata atau trekking ringan di Gunung Panderman bisa menjadi solusi '
+        'untuk mencari suasana dingin khas kota Batu dan ditambah lagi pemandangan  '
+        'yang menarik dengan diperlukan waktu kira-kira tiga jam untuk mendaki dan '
+        'menuruni Gunung Panderman. Pastikan untuk mengunjungi tempat ini bersama  '
+        'keluarga atau teman untuk pengalaman yang tak terlupakan!.\n\nYayun Eldina - 2241720065.',
+        softWrap: true,
+      ),
+    );
+
+    // Praktikum 4: Implementasi image section
     return MaterialApp(
-      title: 'Flutter layout demo',
+      title: 'Flutter layout: Yayun Eldina dan 2241720065',
       home: Scaffold(
         appBar: AppBar(
           title: const Text('Flutter layout demo'),
         ),
-        body: Column(
+        body: ListView(
           children: [
-            titleSection, // Mengganti isi body text dengan variabel titleSection
+            Image.asset(
+              'images/gunung.webp',
+              width: 600,
+              height: 240,
+              fit: BoxFit.cover,
+            ),
+            titleSection,
+            buttonSection,
+            textSection, // Memanggil widget titleSection
           ],
         ),
       ),
