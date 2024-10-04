@@ -106,3 +106,50 @@ Pada langkah terakhir ini, atur semua elemen dalam ListView, bukan Column, karen
 
  <img src="img/e3.png">
 
+# **Praktikum 5: Membangun Navigasi di Flutter**
+## **Langkah 1: Siapkan Project Baru**
+Membuat project baru dengan nama belanja
+
+ <img src="img/p5.l1.png">
+
+Menyiapkan struktur folder.
+
+  <img src="img/p5.l1,.png">
+
+## **Langkah 2: Mendefinisikan Route**
+Membuat dua buah file dart dengan nama home_page.dart dan item_page.dart pada folder pages. Untuk masing-masing file,dideklarasikan class HomePage pada file home_page.dart dan ItemPage pada item_page.dart. Turunkan class dari StatelessWidget.
+
+<img src="img/p5.l2.png">
+
+## **Langkah 3: Lengkapi Kode di main.dart**
+Setelah kedua halaman telah dibuat dan didefinisikan, file main.dart definisikan Route untuk kedua halaman tersebut. Definisi penamaan route harus bersifat unique. Halaman HomePage didefinisikan sebagai /. Dan halaman ItemPage didefinisikan sebagai /item. Untuk mendefinisikan halaman awal, dapat menggunakan named argument initialRoute.
+
+<img src="img/p5.l3.png">
+
+## **Langkah 4: Membuat data model**
+Sebelum melakukan perpindahan halaman dari HomePage ke ItemPage, dibutuhkan proses pemodelan data. Pada desain mockup, dibutuhkan dua informasi yaitu nama dan harga. Untuk menangani hal ini, buatlah sebuah file dengan nama item.dart dan letakkan pada folder models.
+
+<img src="img/p5.l4.png">
+
+## **Langkah 5: Lengkapi kode di class HomePage**
+Pada halaman HomePage terdapat ListView widget. Sumber data ListView diambil dari model List dari object Item.
+
+<img src="img/p5.l5.png">
+
+## **Langkah 6: Membuat ListView dan itemBuilder**
+Untuk menampilkan ListView pada praktikum ini digunakan itemBuilder. Data diambil dari definisi model yang telah dibuat sebelumnya.
+
+Kode beserta hasil running.
+<img src="img/p5.l6.png">
+
+## **Langkah 7: Menambahkan aksi pada ListView**
+Untuk menambahkan aksi pada ListView dapat digunakan widget InkWell atau GestureDetector. Perbedaan utamanya InkWell merupakan material widget yang memberikan efek ketika ditekan. Sedangkan GestureDetector bersifat umum dan bisa juga digunakan untuk gesture lain selain sentuhan.
+
+<img src="img/p5.l7.png">
+
+Sekarang jika item pada ListView ditekan, maka akan berpindah ke halaman ItemPage.
+
+<video width="800" height="400" controls autoplay muted>
+  <source src="img/p5.l7.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>

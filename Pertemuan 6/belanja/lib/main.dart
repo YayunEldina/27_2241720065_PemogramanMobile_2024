@@ -1,20 +1,27 @@
 import 'package:flutter/material.dart';
+import 'package:belanja/models/item.dart'; // Import your Item model
+import 'package:belanja/pages/home_page.dart'; // Import your HomePage
+import 'package:belanja/pages/item_page.dart'; // Import your ItemPage
 
 void main() {
-  runApp(const MainApp());
+  runApp(const MyApp());
 }
 
-class MainApp extends StatelessWidget {
-  const MainApp({super.key});
+class MyApp extends StatelessWidget {
+  const MyApp({super.key});
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
-      home: Scaffold(
-        body: Center(
-          child: Text('Hello World!'),
-        ),
+    return MaterialApp(
+      title: 'Belanja App',
+      theme: ThemeData(
+        primarySwatch: Colors.blue,
       ),
+      initialRoute: '/', // Set the initial route
+      routes: {
+        '/': (context) => HomePage(), // Home page
+        '/item': (context) => const ItemPage(), // Item page
+      },
     );
   }
 }
