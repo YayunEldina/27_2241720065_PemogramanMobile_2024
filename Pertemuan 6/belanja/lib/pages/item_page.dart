@@ -1,19 +1,35 @@
+import 'package:belanja/models/item.dart';
+import 'package:belanja/widgets/item_details.dart';
+import 'package:belanja/widgets/item_image.dart';
 import 'package:flutter/material.dart';
+import 'package:go_router/go_router.dart';
 
 class ItemPage extends StatelessWidget {
   const ItemPage({super.key});
 
   @override
   Widget build(BuildContext context) {
+    // Use the 'state' object to get the extra parameter
+    final Item itemArgs = GoRouterState.of(context).extra! as Item;
+
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Halaman Item'),
-        centerTitle: true, // Center the title
+        title: const Text('Shopping List'),
       ),
-      body: Center(
-        child: Text(
-          'Detail Item', // You can add more details here
-          style: const TextStyle(fontSize: 24),
+      body: GestureDetector(
+        onTap: () {
+          context.pop();
+        },
+        child: Center(
+          child: Column(
+            children: [
+              ItemImage(imageUrl: itemArgs.image!, tag: itemArgs.name!),
+              Padding(
+                padding: const EdgeInsets.all(7.0),
+                child: ItemDetails(item: itemArgs),
+              ),
+            ],
+          ),
         ),
       ),
     );
