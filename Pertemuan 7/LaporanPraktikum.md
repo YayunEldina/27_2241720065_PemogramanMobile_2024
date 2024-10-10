@@ -30,5 +30,9 @@ Terjadi eror, karena `AutoSizeText` tidak didefinisikan dalam file dan berasal d
 ## **Langkah 5: Buat Variabel text dan parameter di constructor**
 Tambahkan variabel text dan parameter di constructor seperti berikut.
 
+<img src="img/l5.png">
+
 ## **Langkah 6: Tambahkan widget di main.dart**
 Buka file main.dart lalu tambahkan di dalam children: pada class _MyHomePageState
+
+<img src="img/l6.png">
