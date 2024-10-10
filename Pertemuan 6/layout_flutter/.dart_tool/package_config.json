@@ -45,7 +45,7 @@
     },
     {
       "name": "flutter",
-      "rootUri": "file:///C:/Users/ASUS/Downloads/flutter_windows_3.24.1-stable/flutter/packages/flutter",
+      "rootUri": "file:///C:/Users/ASUS/flutter/packages/flutter",
       "packageUri": "lib/",
       "languageVersion": "3.3"
     },
@@ -57,7 +57,7 @@
     },
     {
       "name": "flutter_test",
-      "rootUri": "file:///C:/Users/ASUS/Downloads/flutter_windows_3.24.1-stable/flutter/packages/flutter_test",
+      "rootUri": "file:///C:/Users/ASUS/flutter/packages/flutter_test",
       "packageUri": "lib/",
       "languageVersion": "3.3"
     },
@@ -111,7 +111,7 @@
     },
     {
       "name": "sky_engine",
-      "rootUri": "file:///C:/Users/ASUS/Downloads/flutter_windows_3.24.1-stable/flutter/bin/cache/pkg/sky_engine",
+      "rootUri": "file:///C:/Users/ASUS/flutter/bin/cache/pkg/sky_engine",
       "packageUri": "lib/",
       "languageVersion": "3.2"
     },
@@ -170,10 +170,10 @@
       "languageVersion": "3.5"
     }
   ],
-  "generated": "2024-10-04T07:46:56.161504Z",
+  "generated": "2024-10-10T05:46:45.965899Z",
   "generator": "pub",
-  "generatorVersion": "3.5.1",
-  "flutterRoot": "file:///C:/Users/ASUS/Downloads/flutter_windows_3.24.1-stable/flutter",
-  "flutterVersion": "3.24.1",
+  "generatorVersion": "3.5.3",
+  "flutterRoot": "file:///C:/Users/ASUS/flutter",
+  "flutterVersion": "3.24.3",
   "pubCache": "file:///C:/Users/ASUS/AppData/Local/Pub/Cache"
 }
